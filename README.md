@@ -11,7 +11,7 @@ API provides functions for:
 ## Usage
 We presented usage of this interface in demo.ipynb. It loads all needed packages. 
 
-We do not provide the training data nor the evaluation data. If you wish to train this model using your data, it needs to be in one folder, each recording has to be named like: `AO1M1_0_.wav`, where first 5 letters are speaker id, and the second part indicates the digit. 
+We do not provide the training data nor the evaluation data. If you wish to train this model using your data, it needs to be in one folder, each recording has to be named like: `AO1M1_0_.wav`, where the first 5 letters are speaker id, and the second part indicates the digit. 
 
 ## Results:
 The best scores have been achieved for:
@@ -29,7 +29,7 @@ The best scores have been achieved for:
 
 The model was trained on data from only male speakers. 
 
-Accuracy achieved on validation data (both male and female speakers from the same dataset - same recording conditions): 93.50%
+Accuracy achieved on validation data (both male and female speakers from the same dataset - same recording conditions): 93.50%\
 Accuracy achieved on unknown data (data was recorded by various people - various recording conditions, often poor quality): 70.73%
 
 
